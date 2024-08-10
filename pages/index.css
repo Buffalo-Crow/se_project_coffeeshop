@@ -6,56 +6,12 @@
 @import url(../blocks/reservation.css);
 @import url(../blocks/form.css);
 @import url(../blocks/menu.css);
-
-.about {
-  padding: 100px 80px 173px;
-  background-color: #0a2850;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-}
-
-.about__title {
-  margin: 0;
-  max-width: 251px;
-  font-size: 44px;
-  font-family: "Inter";
-  font-style: normal;
-  line-height: 52px;
-  font-weight: 500;
-}
-
-.about__content {
-  max-width: 660px;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-top: 19px;
-}
-
-.about__paragraph {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.about__circle {
-  position: static;
-  border-radius: 50%;
-  width: 426px;
-  height: 426px;
-  background-color: #2f80ed;
-  margin-top: -252px;
-  margin-left: -209px;
-}
+@import url(../blocks/about.css);
 
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
+  margin: 0;
 }
 
 .footer__content {
@@ -102,6 +58,9 @@
 .footer__list {
   list-style-type: none;
   padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .footer__copyright {
