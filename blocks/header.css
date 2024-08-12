@@ -18,7 +18,7 @@
   margin: 183px 0 0;
   letter-spacing: -0.6px;
   font-weight: 500;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter" Arial, sans-serif;
   font-style: normal;
   line-height: 72px;
 }
@@ -36,7 +36,7 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -44,7 +44,7 @@
 .header__span-accent {
   display: block;
   color: #2f80ed;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
