@@ -1,7 +1,7 @@
 .header {
   padding: 30px 80px 40px;
   min-height: 720px;
-  max-height: 880px;
+  max-height: 800px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,6 +21,7 @@
   font-family: "Inter" Arial, sans-serif;
   font-style: normal;
   line-height: 72px;
+  z-index: 1;
 }
 
 .header__image {
@@ -36,7 +37,7 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
-  font-family: "Noto Serif", Times New Roman, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
 }
